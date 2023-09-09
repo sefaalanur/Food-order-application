@@ -1,6 +1,7 @@
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 Technologies Used
+
 Next.js: A React framework for building server-rendered applications.
 Tailwind CSS: A utility-first CSS framework for building responsive and modern web designs.
 Next-Auth: A library for adding authentication to Next.js applications.
