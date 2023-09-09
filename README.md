@@ -1,5 +1,16 @@
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
+Technologies Used
+Next.js: A React framework for building server-rendered applications.
+Tailwind CSS: A utility-first CSS framework for building responsive and modern web designs.
+Next-Auth: A library for adding authentication to Next.js applications.
+Redux Toolkit: A library for managing application state in a predictable way.
+Formik: A form library for handling form control and validation.
+Yup: A validation library for defining validation schemas.
+MongoDB: A NoSQL database for storing application data.
+Custom API: A custom API built from scratch to handle food orders and user authentication.
+bcrypt: A library for securely hashing passwords.
+
 ## Getting Started
 
 First, run the development server:
