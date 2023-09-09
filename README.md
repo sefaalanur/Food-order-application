@@ -1,32 +1,34 @@
-# Food-order-application
-Full Stack Food Ordering Project with React (Next.js)
+This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
-This is a full-stack food ordering application built using Next.js, Tailwind CSS, and several other technologies. It allows users to browse and order food from various restaurants. The project includes features like responsive transitions, authentication, state management, form control, validation, and an admin panel for restaurant owners. The application also includes a MongoDB database for data storage and a custom API for handling requests. Passwords are securely hashed using the bcrypt algorithm.
+## Getting Started
 
-Technologies Used
-Next.js: A React framework for building server-rendered applications.
-Tailwind CSS: A utility-first CSS framework for building responsive and modern web designs.
-Next-Auth: A library for adding authentication to Next.js applications.
-Redux Toolkit: A library for managing application state in a predictable way.
-Formik: A form library for handling form control and validation.
-Yup: A validation library for defining validation schemas.
-MongoDB: A NoSQL database for storing application data.
-Custom API: A custom API built from scratch to handle food orders and user authentication.
-bcrypt: A library for securely hashing passwords.
-Getting Started
-Clone the repository: git clone https://github.com/sefaalanur/food-ordering-app.git
-Install dependencies: npm install
-Configure environment variables and database settings as needed.
-Run the development server: npm run dev
-Features
-Browse and order food from various restaurants.
-Responsive design with smooth transitions using Tailwind CSS.
-User authentication with Next-Auth.
-State management with Redux Toolkit.
-Form control and validation with Formik and Yup.
-Admin panel for restaurant owners to manage their menus.
-Data storage and retrieval using MongoDB.
-Custom API for handling food orders and user authentication.
-Secure password hashing with bcrypt.
-Contributing
-Contributions are welcome! Please open an issue or create a pull request if you would like to contribute to this project.
+First, run the development server:
+
+```bash
+npm run dev
+# or
+yarn dev
+# or
+pnpm dev
+```
+
+Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+
+You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+
+This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+
+## Learn More
+
+To learn more about Next.js, take a look at the following resources:
+
+- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
+- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+
+You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+
+## Deploy on Vercel
+
+The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+
+Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
